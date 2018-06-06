@@ -1,6 +1,7 @@
 * Usage 1
   1. Install Tcl/Tk
-  2. Run this command
+  2. Download binary from [[https://drive.google.com/open?id=1MUm1sL2iDUPgdAT8aPBlSpMhdpJSWqWL][Here]]
+  3. Run this command
   #+BEGIN_EXAMPLE
   $ ./cl-ltk-text-input.exe
   #+END_EXAMPLE
