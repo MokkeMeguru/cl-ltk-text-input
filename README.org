@@ -49,6 +49,9 @@ $ sbcl
 * (exit)
 $ 
    #+END_EXAMPLE
+* Screenshot
+  [[./img/screen1.png]]
+  [[./img/screen2.png]]
 * Licence
 MIT License
 
