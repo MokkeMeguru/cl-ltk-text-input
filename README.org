@@ -1,3 +1,6 @@
+* Notice
+  This program does not work on Windows because we get current time through some unix command.
+
 * Usage 1
   1. Install Tcl/Tk
   2. Download binary from [[https://drive.google.com/open?id=1MUm1sL2iDUPgdAT8aPBlSpMhdpJSWqWL][Here]]
@@ -5,9 +8,9 @@
   #+BEGIN_EXAMPLE
   $ ./cl-ltk-text-input.exe
   #+END_EXAMPLE
-
+  
 * Usage 2
-  1. Install sbcl and Tcl/Tk
+  1. Install sbcl and Tcl/Tk and QuickLisp
   2. Run command like this log
   #+BEGIN_EXAMPLE
 ~/path/to/cl-ltk-text-input $ sbcl
@@ -34,6 +37,18 @@ NIL
 * (SB-EXT:EXIT)
 ~/path/to/cl-ltk-text-input $
   #+END_EXAMPLE
+** How to QuickLisp Install
+   #+BEGIN_EXAMPLE
+$ curl -O https://beta.quicklisp.org/quicklisp.lisp
+$ sbcl
+* (load "quicklisp.lisp")
+* (quicklisp-quickstart:install)
+* (ql.add-to-init-file)
+   // if you got some error message such as "QL not found", \
+   // You should set sbcl's path into environmnt variable "PATH"
+* (exit)
+$ 
+   #+END_EXAMPLE
 * Licence
 MIT License
 
