@@ -1,6 +1,9 @@
 * Notice
   This program does not work on Windows because we get current time through some unix command.
 
+** Update! 
+   I created program for windows (removed timer). Its link is [[https://drive.google.com/open?id=1hxZh2j6O_68Lj9WNjd2OMSJ6Svytg5uN][Here]].
+   Install ActiveTcl and run it!!!
 * Usage 1
   1. Install Tcl/Tk
   2. Download binary from [[https://drive.google.com/open?id=1MUm1sL2iDUPgdAT8aPBlSpMhdpJSWqWL][Here]]
